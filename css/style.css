@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 100rem;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+.nav .logo-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.nav .logo-ctn .logo-text { 
+    font-size: 20px;
+}
+.nav .link-ctn {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+.nav .link-ctn .nav-list {
+    background-color: blue;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav .link-ctn .nav-list .nav-item {
+    list-style: none;
+}
+.nav .link-ctn .nav-list .nav-item .nav-link {
+    color: #000;
+}
+.nav .button-ctn {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav .button-ctn .sign-btn {
+    border: 0;
+    background-color: transparent;
+}
+.nav .button-ctn .reg-btn {
+    background-color: #4F46BA;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+}
